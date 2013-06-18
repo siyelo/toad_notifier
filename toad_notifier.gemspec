@@ -4,7 +4,7 @@ require "toad_notifier/version"
 
 Gem::Specification.new do |s|
   s.name        = "toad_notifier"
-  s.version     = Tucows::VERSION
+  s.version     = ToadNotifier::VERSION
   s.authors     = ["Glenn Roberts", "Ile Eftimov"]
   s.email       = ["glenn@siyelo.com", "ile@siyelo.com"]
   s.homepage    = ""
@@ -21,5 +21,5 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   s.add_development_dependency "rspec"
   s.add_development_dependency "rake"
-  s.add_runtime_dependency "toad_hopper", '~> 2.1'
+  s.add_runtime_dependency "toadhopper", '~> 2.1'
 end
