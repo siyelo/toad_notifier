@@ -1,3 +1,3 @@
-module ToadNotifier
+class ToadNotifier
   VERSION = 0.1
 end
